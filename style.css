@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Cocogose;
+    src: url(fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+}
+
+body{
+    background-image: url(images/bg.jpg);
+}
+
+h1{
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Inter;
+}
+
+.opisanie{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Cocogose;
+    font-weight: bolder;
+}
+
+.name{
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.spisok{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+
+.m_name{
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.linkk{
+    color: white;
+}
+
+.vibe__wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.vibes{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.imgg{
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    margin-bottom: 10px;
+}
